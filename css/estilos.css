@@ -1,0 +1,214 @@
+/*=================================CLASES REUTILIZABLES======================================*/
+.rosa {
+	color: #ea058d;
+}
+
+.azul {
+	color: #7aa9da;
+}
+
+.verde {
+	color: #9ad901;
+}
+/*=================================CLASES REUTILIZABLES======================================*/
+
+body {
+	margin: 0 auto;
+	font-size: 16px;
+	max-width: 1024px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	position: relative;
+}
+
+header nav ul {
+	text-align: center;
+}
+
+header nav ul li {
+	display: inline-block;
+	font-size: 26px;
+	color: #bbb;
+	border-bottom: 2px solid rgba(187, 187, 187, 0.35);
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+#pintura {
+	position: absolute;
+	top: 20px;
+	right: 0;
+	z-index: -100;
+}
+
+#logo {
+	position: relative;
+	top: 25px;
+	left: 25px;
+}
+
+header input[type="search"] {
+	position: absolute;
+	top: 40px;
+	right: 20px;
+}
+
+main {
+	position: relative;
+	display: inline-block;
+	width: 75%;
+	padding: 20px;
+}
+
+aside {
+	display: inline-block;
+	width: 20%;
+}
+
+#special-offers {
+	position: absolute;
+	top: -15px;
+	left: -35px;
+}
+
+#slide {
+	margin-top: 50px;
+	width: 100%;
+}
+
+.secc2 {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: baseline;
+}
+
+.secc2 article {
+	width: 30%;
+}
+
+.secc2 article h2 {
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.secc2 article p {
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.secc2 article a {
+	font-weight: 600;
+}
+
+.art-title {
+	display: flex;
+	align-items: center;
+}
+
+article a {
+	text-decoration: none;
+}
+
+/*==========================ASIDE==================================*/
+.offer {
+	font-size: 50px;
+	font-weight: 900;
+	line-height: 40px;
+	margin: 0;
+}
+
+aside :first-child {
+	text-align: start;
+}
+
+aside ul {
+	width: 100%;
+	padding: 0;
+}
+
+aside ul li {
+	list-style: none;
+	position: relative;
+	line-height: 28px;
+}
+
+aside ul li::before {
+	content: "\25A0";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	color: pink;
+}
+
+.telefono {
+	font-size: 26px;
+	font-weight: 900;
+}
+
+aside div h4 {
+	font-size: 24px;
+	font-weight: 200;
+	margin: 0;
+}
+
+form {
+	display: flex;
+	height: 26px;
+	justify-content: space-between;
+}
+
+form :first-child {
+	width: 60%;
+}
+
+form :last-child {
+	width: 30%;
+	background: linear-gradient(#9ad901, #6a9400);
+	border: none;
+	border-radius: 5px;
+	padding: 4px 8px;
+	color: white;
+	font-weight: 900;
+}
+
+/*==========================FOOTER==================================*/
+
+footer {
+	background-color: #4264af;
+	color: white;
+	display: flex;
+	padding: 30px 6px 6px;
+	margin-top: 40px;
+	font-size: 12px;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: flex-end;
+	line-height: 30px;
+}
+
+footer p {
+	padding: 0;
+	margin: 0;
+	line-height: 20px;
+}
+
+footer .copy {
+	width: 35%;
+}
+footer .other {
+	width: 40%;
+}
+
+footer .other {
+	text-align: center;
+}
+
+.html {
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 0 6px;
+}
