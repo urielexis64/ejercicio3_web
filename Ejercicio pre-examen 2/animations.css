@@ -1,0 +1,61 @@
+@keyframes bar70 {
+	to {
+		width: 70%;
+	}
+}
+@keyframes bar40 {
+	to {
+		width: 40%;
+	}
+}
+@keyframes bar20 {
+	to {
+		width: 20%;
+	}
+}
+
+@keyframes toUp {
+	to {
+		transform: unset;
+	}
+}
+
+@keyframes toDown {
+	to {
+		transform: unset;
+	}
+}
+
+@keyframes toRight {
+	to {
+		opacity: 1;
+		transform: unset;
+	}
+}
+
+@keyframes fadeIn {
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn04 {
+	to {
+		opacity: 0.4;
+	}
+}
+
+@keyframes bounceIn {
+	0% {
+		transform: scale(0);
+	}
+	33% {
+		transform: scale(1.2);
+	}
+	66% {
+		transform: scale(0.8);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
